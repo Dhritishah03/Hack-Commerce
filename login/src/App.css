@@ -5,7 +5,12 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: linear-gradient(79deg, #36dae6, #d245df 48%, #d33cee);
+  background-image: linear-gradient(79deg, #06c5da, #6ab9ec 48%, #26b7a3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
 }
 
 .auth-form-container, .login-form, .register-form {

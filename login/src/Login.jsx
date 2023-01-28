@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import GoogleLoginComponent from "./googlebutton";
 
 export const Login = (props) => {
     const [email, setEmail] = useState('');
@@ -22,9 +21,6 @@ export const Login = (props) => {
                 <button type="submit">Log In</button>
             </form>
             <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Sign Up here.</button>
-            <div>
-                <GoogleLoginComponent />
-            </div>
         </div>
 
     )
