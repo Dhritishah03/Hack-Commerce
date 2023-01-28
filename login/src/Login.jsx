@@ -12,7 +12,7 @@ export const Login = (props) => {
 
     return (
         <div className="auth-form-container">
-            <h1>Medical Card</h1>
+            <h1>3D-i-print</h1>
             <h3>Login</h3>
             <form className="login-form" onSubmit={handleSubmit}>
                 <label htmlFor="email">email</label>
