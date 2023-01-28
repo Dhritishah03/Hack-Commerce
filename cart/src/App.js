@@ -1,11 +1,11 @@
 import './App.css';
-import { ShoppingCart} from './cart';
+import { FileUploadPage} from './cart';
 
 
 function App() {
   return (
     <div className="container">
-      <ShoppingCart/>
+      <FileUploadPage/>
     </div>
   );
 }

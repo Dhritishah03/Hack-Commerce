@@ -25,9 +25,9 @@ export const SignUp = (props) => {
             <input value={pass} onChange={(e) => setPass(e.target.value)}type="password" placeholder="***********" id="password" name="password" />
             <label htmlFor="password">confirm password</label>
             <input value={pass} onChange={(e) => setPass(e.target.value)}type="password" placeholder="***********" id="password" name="password" />
-            <label htmlFor="password"> password</label>
+            <label htmlFor="password"> Phone No.</label>
             <input value={phoneno} onChange={(e) => setPhoneno(e.target.value)}type="phoneno" placeholder="+91-XXXXXXXXXX" id="phoneno" name="phoneno" />
-            <label htmlFor="password">Phone No</label>
+            <label htmlFor="password">Address</label>
             <input value={address} onChange={(e) => setAddress(e.target.value)} type="address" placeholder=" " id="address" name="address" />
             <button type="submit">Sign Up</button>
         </form>
