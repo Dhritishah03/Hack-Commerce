@@ -178,6 +178,7 @@ header .fa-bars{
 
 .about .row .content{
     flex:1 1 40rem;
+    padding-left: 12rem;
 }
 
 .about .row .content h3{
@@ -231,6 +232,7 @@ header .fa-bars{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+    
 }
 
 .products .box-container .box{
@@ -261,6 +263,8 @@ header .fa-bars{
 
 .products .box-container .box .image img{
     height:25rem;
+    min-width: 33rem;
+    max-width: 34rem;
 }
 
 .products .box-container .box:hover .image img{
@@ -392,6 +396,7 @@ header .fa-bars{
     border:.1rem solid rgba(0,0,0,.1);
     background: #fff;
     border-radius: .5rem;
+    min-height: 50rem;
 }
 
 .contact .row .image{
@@ -400,6 +405,7 @@ header .fa-bars{
 
 .contact .row .image img{
     width: 100%;
+    padding-left: 5rem;
 }
 
 .contact .row form .box{
@@ -418,7 +424,7 @@ header .fa-bars{
 }
 
 .contact .row form textarea{
-    height: 15rem;
+    height: 20rem;
     resize: none;
 }
 
