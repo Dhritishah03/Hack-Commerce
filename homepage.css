@@ -1,5 +1,5 @@
 :root{
-    --pink:rebeccapurple;
+    --pink:#143642;
 }
 
 *{
@@ -29,11 +29,11 @@ section{
     color:#333;
     padding:1rem;
     margin:2rem 0;
-    background:rgba(255, 51, 153,.05);
 }
 
+
 .heading span{
-    color: rebeccapurple;
+    color: #143642;
 }
 
 .btn{
@@ -151,21 +151,21 @@ header .fa-bars{
     padding-bottom: 3rem;
 }
 
-.about .row .video-container{
+.about .row .image-container{
     flex:1 1 40rem;
     position: relative;
 }
 
-.about .row .video-container video{
+.about .row .image-container img{
     width:100%;
     border:1.5rem solid #fff;
     border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     height: 100%;
     object-fit: cover;
 }
 
-.about .row .video-container h3{
+.about .row .image-container h3{
     position: absolute;
     top:50%; transform: translateY(-50%);
     font-size: 3rem;
@@ -247,7 +247,7 @@ header .fa-bars{
     padding:.7rem 1rem;
     font-size: 2rem;
     color:var(--pink);
-    background:rgba(255, 51, 153,.05);
+    background-color: rgb(249, 249, 193);
     z-index: 1;
     border-radius: .5rem;
 }
