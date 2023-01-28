@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84393;
+    --pink:rebeccapurple;
 }
 
 *{
@@ -33,14 +33,14 @@ section{
 }
 
 .heading span{
-    color:var(--pink);
+    color: rebeccapurple;
 }
 
 .btn{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background:#333;
+    background:#143642;
     color:#fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
@@ -64,13 +64,13 @@ header{
 }
 
 header .logo{
-    font-size: 3rem;
-    color:#333;
+    font-size: 4rem;
+    color:#143642;
     font-weight: bolder;
 }
 
 header .logo span{
-    color:var(--pink);
+    color:#A8201A;
 }
 
 header .navbar a{
@@ -82,6 +82,7 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--pink);
 }
+
 
 header .icons a{
     font-size: 2.5rem;
@@ -111,30 +112,32 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(../images/home-bg.jpg) no-repeat;
+    background:url(https://us.mitsubishi-chemical.com/wp-content/uploads/2022/01/3dp-header.png) no-repeat  ;
+    
     background-size: cover;
     background-position: center;
 }
 
 .home .content{
     max-width: 50rem;
+    
 }
 
 .home .content h3{
     font-size: 6rem;
-    color:#333;
+    color:#143642;
 }
 
 .home .content span{
     font-size: 3.5rem;
-    color:var(--pink);
+    color:#143642;
     padding:1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
     font-size: 1.5rem;
-    color:#999;
+    color: #000;
     padding:1rem 0;
     line-height: 1.5;
 }
