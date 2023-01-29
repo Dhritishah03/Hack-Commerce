@@ -16,13 +16,16 @@ app.set("views",template_path);
 hbs.registerPartials(partials_path);
 
 app.get("/",(req, res) => {
-    res.render("index.hbs");
+    res.render("homepage.hbs");
 });
 
 app.get("/cart",(req, res) => {
     res.render("cart.hbs");
 });
 
+app.get("/login",(req, res) => {
+    res.render("login.hbs");
+});
 
 app.listen(port, () => {
     console.log(`Server running at ${port}`);
