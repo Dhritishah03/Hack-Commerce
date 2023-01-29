@@ -3,6 +3,7 @@ import React, { useState } from "react";
 export const SignUp = (props) => {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
+    const [confirmPass, setConfirmPass] = useState('');
     const [name, setName] = useState('');
     const [phoneno, setPhoneno] = useState('');
     const [address, setAddress] = useState('');
@@ -24,7 +25,7 @@ export const SignUp = (props) => {
             <label htmlFor="password">password</label>
             <input value={pass} onChange={(e) => setPass(e.target.value)}type="password" placeholder="***********" id="password" name="password" />
             <label htmlFor="password">confirm password</label>
-            <input value={pass} onChange={(e) => setPass(e.target.value)}type="password" placeholder="***********" id="password" name="password" />
+            <input value={confirmPass} onChange={(e) => setConfirmPass(e.target.value)}type="password" placeholder="***********" id="password" name="password" />
             <label htmlFor="password"> Phone No.</label>
             <input value={phoneno} onChange={(e) => setPhoneno(e.target.value)}type="phoneno" placeholder="+91-XXXXXXXXXX" id="phoneno" name="phoneno" />
             <label htmlFor="password">Address</label>
