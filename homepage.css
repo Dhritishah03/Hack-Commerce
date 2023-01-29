@@ -40,11 +40,11 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background:#143642;
+    background:rgb(15, 145, 232);
     color:#fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .btn:hover{
@@ -54,7 +54,7 @@ section{
 header{
     position: fixed;
     top:0; left:0; right:0;
-    background:#fff;
+    background:black;
     padding:2rem 9%;
     display: flex;
     align-items: center;
@@ -65,33 +65,33 @@ header{
 
 header .logo{
     font-size: 4rem;
-    color:#143642;
+    color:white;
     font-weight: bolder;
 }
 
 header .logo span{
-    color:#A8201A;
+    color:cyan;
 }
 
 header .navbar a{
     font-size: 2rem;
     padding:0 1.5rem;
-    color:#666;
+    color:white;
 }
 
 header .navbar a:hover{
-    color:var(--pink);
+    color:cyan;
 }
 
 
 header .icons a{
     font-size: 2.5rem;
-    color:#333;
+    color:white;
     margin-left: 1.5rem;
 }
 
 header .icons a:hover{
-    color:var(--pink);
+    color:cyan;
 }
 
 header #toggler{
@@ -111,33 +111,31 @@ header .fa-bars{
 .home{
     display: flex;
     align-items: center;
-    min-height: 100vh;
-    background:url(https://us.mitsubishi-chemical.com/wp-content/uploads/2022/01/3dp-header.png) no-repeat  ;
-    
+    min-height: 89.5rem;
+    background:url("Untitled design (2).png") no-repeat ;
     background-size: cover;
     background-position: center;
 }
 
 .home .content{
-    max-width: 50rem;
-    
+    max-width: 70rem;    
 }
 
 .home .content h3{
-    font-size: 6rem;
-    color:#143642;
+    font-size: 7rem;
+    color:#186d8b;
 }
 
 .home .content span{
-    font-size: 3.5rem;
-    color:#143642;
+    font-size: 4rem;
+    color:#acc6d0;
     padding:1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
-    font-size: 1.5rem;
-    color: #000;
+    font-size: 1.7rem;
+    color: rgb(141, 195, 246);
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -248,7 +246,7 @@ header .fa-bars{
     top:1rem; left:1rem;
     padding:.7rem 1rem;
     font-size: 2rem;
-    color:var(--pink);
+    color:#143642;
     background-color: rgb(249, 249, 193);
     z-index: 1;
     border-radius: .5rem;
@@ -396,7 +394,7 @@ header .fa-bars{
     border:.1rem solid rgba(0,0,0,.1);
     background: #fff;
     border-radius: .5rem;
-    min-height: 50rem;
+    min-height: 60rem;
 }
 
 .contact .row .image{
@@ -404,7 +402,8 @@ header .fa-bars{
 }
 
 .contact .row .image img{
-    width: 100%;
+    max-height: 75rem;
+    width: auto;
     padding-left: 5rem;
 }
 
@@ -424,8 +423,11 @@ header .fa-bars{
 }
 
 .contact .row form textarea{
-    height: 20rem;
+    height: 25rem;
     resize: none;
+}
+.footer{
+    background-color: black;
 }
 
 .footer .box-container{
@@ -435,40 +437,45 @@ header .fa-bars{
 }
 
 .footer .box-container .box{
+    padding-top: 4rem;
     flex:1 1 25rem;
 }
 
 .footer .box-container .box h3{
-    color:#333;
+    color:white;
     font-size: 2.5rem;
     padding:1rem 0;
 }
 
 .footer .box-container .box a{
     display: block;
-    color:#666;
+    color:white;
     font-size: 1.5rem;
     padding:1rem 0;
 }
 
 .footer .box-container .box a:hover{
-    color:var(--pink);
+    color:cyan;
     text-decoration: underline;
 }
 
 .footer .box-container .box  img{
     margin-top: 1rem;
 }
+.footer hr{
+    
+    color:gainsboro;
+    width:200rem;
+}
 
 .footer .credit{
     text-align: center;
     padding:1.5rem;
-    margin-top: 1.5rem;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
     font-size: 2rem;
-    color:#333;
+    color:gainsboro;
     border-top: .1rem solid rgba(0,0,0,.1);
-    padding-bottom: 9rem;
+    padding-bottom: 2rem;
 }
 
 .footer .credit span{
